@@ -1,0 +1,610 @@
+
+
+
+
+/*-----------
+
+# Genel ayarlar
+
+-------------*/
+
+
+
+body{
+
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: black;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6, a {
+
+    font-family: 'EB Garamond', serif;
+
+}
+
+
+
+.section-box {
+
+    padding:20px;
+
+    background-image: linear-gradient(rgba(20,20,20, .8)rgba(20,20,20, 0.8)),
+
+    url("../img/muscleplate.png");
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    height: 15vh;
+
+}
+
+
+
+.section-top{
+
+    margin-bottom:30px;
+
+}
+
+
+
+.section p {
+
+    margin-left:30px;
+
+}
+
+
+
+.whoweare-section-top hr {
+
+    color:brown!important;
+
+}
+
+
+
+
+
+
+
+/*-----------
+
+# Navigaton 
+
+-------------*/
+
+
+
+.navbar-brand{
+
+    transition: all .5s;
+
+}
+
+
+
+.navbar-brand:hover{
+
+    color: rgb(0, 0, 0)!important;
+
+}
+
+
+
+nav.navbar-container{
+
+    padding: 20px 0 20px 0;
+
+}
+
+
+
+#mainNav {
+
+    background-color: transparent;
+
+}
+
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    padding: 12px 10px;
+
+    letter-spacing: 1px;
+
+    color: rgb(255, 255, 255);
+
+    transition: all .5s;
+
+}
+
+
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+
+    color: rgb(255, 0, 0);
+
+}
+
+
+
+nav.shrink {
+
+    padding:0;
+
+    background-color: rgb(0, 0, 0)!important;
+
+
+
+}
+
+
+
+#mainNav .navbar-toggler {
+
+    font-size:12px;
+
+    right: 0;
+
+    padding: 13px,;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    border: 0;
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+
+nav.shrink  .navbar-nav .nav-item .nav-link:hover,
+
+nav.shrink .navbar-brand:hover {
+
+    color: rgb(255, 0, 0)!important;
+
+}
+
+
+
+.navbar-brand.shrink,
+
+.navbar-container.shrink,
+
+.navbar.fixed-top.shrink,
+
+.navbar-brand,
+
+.navbar-container{
+
+    transition: .8s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------
+
+# Hero Texti
+
+-------------*/
+
+
+
+#hero {
+
+    text-align:center;
+
+    color: white;
+
+    background: linear-gradient( rgba(20, 20, 20, .8), rgba(20, 20, 20, 0.8)),
+
+    url("https://wallpapercave.com/wp/wp5405231.jpg");
+
+    background-repeat: "no-repeat";
+
+    background-attachment: scroll;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    height: 100vh;
+
+}
+
+
+
+#hero .container {
+
+    display: table;
+
+    height: 100vh;
+
+}
+
+
+
+#hero .intro-text{
+
+    display: table-cell;
+
+    vertical-align: middle;
+
+}
+
+
+
+#hero .intro-heading{
+
+    font-size: 50px;
+
+    line-height: 50px;
+
+    margin-bottom: 50px;
+
+    font-weight: 200;
+
+}
+
+
+
+#hero .intro-heading span {
+
+    color: rgb(0, 0, 0);
+
+    font-size: 62px;
+
+}
+
+
+
+.btn-main{
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    font-size: 16px;
+
+    letter-spacing: 1px;
+
+    padding: 8px;
+
+    border-radius: 50px;
+
+    margin: 10px;
+
+    border: 2px solid #fff;
+
+    color: brown;
+
+    transition: all .5s;
+
+}
+
+
+
+.btn-main:hover{
+
+    background: brown;
+
+    border: 2px solid brown;
+
+    color: #fff;
+
+
+
+}
+
+
+
+/*-----------
+
+# Hero Texti BİTTİ
+
+-------------*/
+
+
+
+
+
+/*-----------
+
+# Biz kimiz sectionu
+
+-------------*/
+
+ 
+
+#whoweare{
+
+    background-color: #f2f2f2;
+
+}
+
+
+
+.whoweare-item{
+
+    padding:60px 30px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0 , .1);
+
+}
+
+
+
+.whoweare-item i{
+
+    font-size: 42px;
+
+    margin-bottom:10px;
+
+    color:brown;
+
+}
+
+
+
+.whoweare-item hr{
+
+    width: 35px;
+
+    height:2px;
+
+    background-color:brown;
+
+    border:none;
+
+    margin:0 auto;
+
+}
+
+
+
+.whoweare-item p {
+
+    margin-top: 20px;
+
+}
+
+
+
+.whoweare-item:hover {
+
+    background-color: brown;
+
+    cursor: pointer;
+
+}
+
+
+
+.whoweare-item:hover i,
+
+.whoweare-item:hover h3,
+
+.whoweare-item:hover p {
+
+    color: white;
+
+}
+
+
+
+.whoweare-item:hover hr {
+
+    background-color: white;
+
+    width: 75px;
+
+}
+
+
+
+.whoweare-item:hover i{
+
+    transform: translateY(-20px);
+
+}
+
+
+
+.whoweare-item,
+
+.whoweare-item i,
+
+.whoweare-item hr {
+
+    transition: all .5s ease-in-out;
+
+}
+
+
+
+
+
+/*-----------
+
+# Statement
+
+-------------*/
+
+
+
+#statement .section-box{
+
+    text-align:center;
+
+    color: white;
+
+    background: linear-gradient( rgba(20, 20, 20, .8), rgba(20, 20, 20, 0.8)),
+
+    url("../img/eagle.jpg");
+
+    background-repeat: "no-repeat";
+
+    background-attachment: fixed;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    height: 15vh;
+
+}
+
+
+
+/*-----------
+
+# Statement
+
+-------------*/
+
+
+
+
+
+
+
+/*-----------
+
+# Latest Projects
+
+-------------*/
+
+
+
+
+
+#latestprojects {
+
+    background-color: #f2f2f2;
+
+}
+
+
+
+#latestprojects.project-text {
+
+    padding:30px;
+
+}
+
+
+
+/*-----------
+
+# MUSCLES
+
+-------------*/
+
+
+
+#muscles h2{
+
+    color:rgb(73, 4, 4)!important;
+
+}
+
+
+
+#muscles {
+
+    background-image: linear-gradient(rgba(20,20,20, .8)rgba(20,20,20, 0.8)),
+
+    url("../img/muscleplate.png");
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    height: 15vh;
+
+}
+
+
+
+#muscles .img-fluid {
+
+    height: 30vh;
+
+    transition: all .5s;
+
+}
+
+
+
+#muscles .img-fluid:hover{
+
+    height: 40vh;
+
+    transition: all .5s;
+
+}
+
+
+
+
+
+/*-----------
+
+# CARD
+
+-------------*/
+
+
+
+#card {
+
+    margin-top: auto;
+
+    margin-bottom: auto;
+
+}
+
+#sergi{
+    background-color:black;
+    color:white;
+}
